@@ -1,0 +1,12 @@
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/bin/Debug/net5.0/AndrewMadden.Trading.RobinHood.deps.json
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/bin/Debug/net5.0/AndrewMadden.Trading.RobinHood.dll
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/bin/Debug/net5.0/ref/AndrewMadden.Trading.RobinHood.dll
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/bin/Debug/net5.0/AndrewMadden.Trading.RobinHood.pdb
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.csprojAssemblyReference.cache
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.GeneratedMSBuildEditorConfig.editorconfig
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.AssemblyInfoInputs.cache
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.AssemblyInfo.cs
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.csproj.CoreCompileInputs.cache
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.dll
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/ref/AndrewMadden.Trading.RobinHood.dll
+/home/amadden/projects/AutoBuyer/AndrewMadden.Trading.RobinHood/obj/Debug/net5.0/AndrewMadden.Trading.RobinHood.pdb
