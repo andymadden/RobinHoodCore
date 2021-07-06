@@ -11,6 +11,9 @@ namespace AndrewMadden.Trading.RobinHood
 {
     public class RobinHttpClient : HttpClient
     {
+
+        public string AccountId;
+
         public StockInterface Stocks;
 
         public RobinHttpClient (string Token)
@@ -30,5 +33,6 @@ namespace AndrewMadden.Trading.RobinHood
 
             this.Stocks = new StockInterface(this);
         }
+
     }
 }
