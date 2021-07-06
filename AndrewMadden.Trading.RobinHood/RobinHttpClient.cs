@@ -15,6 +15,8 @@ namespace AndrewMadden.Trading.RobinHood
 
         public string AccountId;
 
+        public Dictionary<string, string> Instruments = new Dictionary<string, string>();
+
         public StockConnector Stocks;
 
         public RobinHttpClient(string Token)

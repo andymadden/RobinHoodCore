@@ -14,6 +14,9 @@ namespace AndrewMadden.Trading.RobinHood.Connectors.Stocks
             this.Client = Client;
         }
 
+        /// <summary>
+        /// Get quote for provided symbol
+        /// </summary>
         public async Task<StockQuote> getQuote(string Symbol)
         {
             var streamTask = Client.GetStreamAsync($"https://api.robinhood.com/marketdata/quotes/{Symbol}/");

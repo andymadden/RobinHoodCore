@@ -9,6 +9,7 @@ namespace AndrewMadden.Trading.RobinHood.Connectors.Stocks
 
         public StockHistoryGatherer Histories;
         public StockQuoteGatherer Quotes;
+        public StockTrader Trade;
         
         public StockConnector(RobinHttpClient Client)
         {
@@ -16,6 +17,7 @@ namespace AndrewMadden.Trading.RobinHood.Connectors.Stocks
 
             this.Histories = new StockHistoryGatherer(this.Client);
             this.Quotes = new StockQuoteGatherer(this.Client);
+            this.Trade = new StockTrader(this.Client);
         }
     }
 }

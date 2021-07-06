@@ -15,8 +15,8 @@ namespace AndrewMadden.Trading.RobinHood.Models.Stocks
         public string Instrument { get; set; }
 
         [JsonPropertyName("price")]
-        public string AskPriceString { get; set; }
-        public decimal AskPrice => Decimal.Parse(AskPriceString);
+        public string PriceString { get; set; }
+        public decimal Price => Decimal.Parse(PriceString);
 
         [JsonPropertyName("quantity")]
         public string QuantityString { get; set; }
