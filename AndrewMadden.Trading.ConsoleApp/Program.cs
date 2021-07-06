@@ -7,7 +7,7 @@ using System.IO;
 using System.Net.Http.Headers;
 using System.Configuration;
 using AndrewMadden.Trading.RobinHood;
-using AndrewMadden.Trading.RobinHood.Models;
+using AndrewMadden.Trading.RobinHood.Models.Stocks;
 using Microsoft.VisualBasic;
 
 namespace AndrewMadden.Trading.ConsoleApp
@@ -22,7 +22,7 @@ namespace AndrewMadden.Trading.ConsoleApp
                 StreamReader sr = new StreamReader("token");
                 string token = sr.ReadToEnd();
                 RobinHttpClient rhc = new RobinHttpClient(token);
-                Quote q = await rhc.Stocks.Quotes.getQuote("AMD");
+                StockQuote q = await rhc.Stocks.Quotes.getQuote("AMD");
                 Console.WriteLine(q.AskPrice);
             }
             catch (IOException e)

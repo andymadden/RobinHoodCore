@@ -1,16 +1,16 @@
 using System;
 using AndrewMadden.Trading.RobinHood.Models;
 
-namespace AndrewMadden.Trading.RobinHood.Stocks
+namespace AndrewMadden.Trading.RobinHood.Connectors.Stocks
 {
-    public class StockInterface
+    public class StockConnector
     {
         public RobinHttpClient Client;
 
         public StockHistoryGatherer Histories;
         public StockQuoteGatherer Quotes;
         
-        public StockInterface(RobinHttpClient Client)
+        public StockConnector(RobinHttpClient Client)
         {
             this.Client = Client;
 

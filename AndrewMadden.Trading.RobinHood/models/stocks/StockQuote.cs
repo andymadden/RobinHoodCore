@@ -1,9 +1,9 @@
 using System;
 using System.Text.Json.Serialization;
 
-namespace AndrewMadden.Trading.RobinHood.Models
+namespace AndrewMadden.Trading.RobinHood.Models.Stocks
 {
-    public class Quote
+    public class StockQuote
     {
         [JsonPropertyName("ask_price")]
         public string AskPriceString { get; set; }

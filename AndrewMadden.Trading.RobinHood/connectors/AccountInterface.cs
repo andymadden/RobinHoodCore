@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using AndrewMadden.Trading.RobinHood.Models;
 
-namespace AndrewMadden.Trading.RobinHood
+namespace AndrewMadden.Trading.RobinHood.Connectors
 {
     public class AccountInterface
     {

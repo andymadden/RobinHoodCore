@@ -1,9 +1,9 @@
 using System;
 using System.Text.Json.Serialization;
 
-namespace AndrewMadden.Trading.RobinHood.Models
+namespace AndrewMadden.Trading.RobinHood.Models.Stocks
 {
-    public class History
+    public class StockHistory
     {
         [JsonPropertyName("quote")]
         public string Quote { get; set; }
@@ -36,6 +36,6 @@ namespace AndrewMadden.Trading.RobinHood.Models
         public string Instrument { get; set; }
 
         [JsonPropertyName("historicals")]
-        public Historical[] Historicals { get; set; }
+        public StockHistorical[] Historicals { get; set; }
     }
 }

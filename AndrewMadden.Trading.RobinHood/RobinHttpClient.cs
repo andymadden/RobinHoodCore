@@ -4,8 +4,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Threading.Tasks;
+using AndrewMadden.Trading.RobinHood.Connectors;
+using AndrewMadden.Trading.RobinHood.Connectors.Stocks;
 using AndrewMadden.Trading.RobinHood.Models;
-using AndrewMadden.Trading.RobinHood.Stocks;
 
 namespace AndrewMadden.Trading.RobinHood
 {
@@ -14,9 +15,9 @@ namespace AndrewMadden.Trading.RobinHood
 
         public string AccountId;
 
-        public StockInterface Stocks;
+        public StockConnector Stocks;
 
-        public RobinHttpClient (string Token)
+        public RobinHttpClient(string Token)
         {
             this.DefaultRequestHeaders.Clear();
             this.DefaultRequestHeaders.Add("Host", "api.robinhood.com");
@@ -31,7 +32,7 @@ namespace AndrewMadden.Trading.RobinHood
             this.DefaultRequestHeaders.Add("Connection", "keep-alive");
             this.DefaultRequestHeaders.Add("TE", "Trailers");
 
-            this.Stocks = new StockInterface(this);
+            this.Stocks = new StockConnector(this);
         }
 
     }

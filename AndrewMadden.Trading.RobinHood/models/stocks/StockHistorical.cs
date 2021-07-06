@@ -1,31 +1,27 @@
 using System;
 using System.Text.Json.Serialization;
 
-namespace AndrewMadden.Trading.RobinHood.Models
+namespace AndrewMadden.Trading.RobinHood.Models.Stocks
 {
-    public class Historical
+    public class StockHistorical
     {
         [JsonPropertyName("begins_at")]
         public DateTime BeginsAt { get; set; }
 
         [JsonPropertyName("open_price")]
-        public string OpenPriceString { get; set; }
-
+        private string OpenPriceString { get; set; }
         public decimal OpenPrice => Decimal.Parse(OpenPriceString);
 
         [JsonPropertyName("close_price")]
-        public string ClosePriceString { get; set; }
-
+        private string ClosePriceString { get; set; }
         public decimal ClosePrice => Decimal.Parse(ClosePriceString);
 
         [JsonPropertyName("high_price")]
-        public string HighPriceString { get; set; }
-
+        private string HighPriceString { get; set; }
         public decimal HighPrice => Decimal.Parse(HighPriceString);
 
         [JsonPropertyName("low_price")]
-        public string LowPriceString { get; set; }
-
+        private string LowPriceString { get; set; }
         public decimal LowPrice => Decimal.Parse(LowPriceString);
 
         [JsonPropertyName("volume")]
